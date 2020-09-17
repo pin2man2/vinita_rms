@@ -109,6 +109,13 @@ public class UserController {
 		return map;
 		
 	}
+	//find ALL employee
+	@GetMapping("/hello")
+	public String  welcome(){
+	
+	return "Welcome To SpringWorld!!";
+	
+	}
 	
 	
 	
